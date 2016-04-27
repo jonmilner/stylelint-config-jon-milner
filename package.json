@@ -1,0 +1,25 @@
+{
+  "name": "stylelint-config",
+  "version": "1.0.0",
+  "description": "My stylelint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmilner/stylelint-config.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonmilner/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/jonmilner/stylelint-config#readme",
+  "devDependencies": {
+    "stylelint": "^6.2.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^6.2.2"
+  }
+}
