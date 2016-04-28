@@ -29,7 +29,7 @@ $ npm install http://github.com/jonmilner/stylelint-config --save-dev
 * Create a `.stylelintrc` file in your root directory.:
 ```json
 {
-    "extends": "stylelint-config"
+  "extends": "stylelint-config"
 }
 ```
 
