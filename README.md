@@ -14,7 +14,24 @@ Coming soon
 
 ## Usage
 
-Coming soon
+With stylelint, it's easy to start linting your CSS:
+
+* Install stylelint:
+```
+$ npm install stylelint
+```
+
+* Install this stylelint-config:
+```
+$ npm install http://github.com/jonmilner/stylelint-config --save-dev
+```
+
+* Create a `.stylelintrc` file in your root directory.:
+```json
+{
+    "extends": "stylelint-config"
+}
+```
 
 ## Atom Plugin (Requires Atom Linter)
 
