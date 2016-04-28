@@ -16,17 +16,17 @@ Coming soon
 
 With stylelint, it's easy to start linting your CSS:
 
-* Install stylelint:
+Install stylelint:
 ```
 $ npm install stylelint
 ```
 
-* Install this stylelint-config:
+Install this stylelint-config:
 ```
 $ npm install http://github.com/jonmilner/stylelint-config --save-dev
 ```
 
-* Create a `.stylelintrc` file in your root directory.:
+Create a `.stylelintrc` file in your root directory.:
 ```json
 {
   "extends": "stylelint-config"
