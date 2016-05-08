@@ -135,7 +135,7 @@ module.exports = {
     "media-query-list-comma-space-after": "always-single-line",
     "media-query-list-comma-space-before": "never",
     "media-query-parentheses-space-inside": "never",
-    "no-browser-hacks": true,
+    "no-browser-hacks": null,
     "no-descending-specificity": null,
     "no-duplicate-selectors": null,
     "no-eol-whitespace": true,
@@ -159,7 +159,7 @@ module.exports = {
     "rule-nested-empty-line-before": ["always-multi-line", {
       "except": ["first-nested"]
     }],
-    "root-no-standard-properties": true,
+    "root-no-standard-properties": null,
     "rule-non-nested-empty-line-before": "always",
     "selector-class-pattern": null,
     "selector-combinator-space-after": "always",
