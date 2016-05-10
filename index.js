@@ -176,7 +176,7 @@ module.exports = {
     "selector-no-type": null,
     "selector-no-universal": null,
     "selector-no-vendor-prefix": true,
-    "selector-pseudo-element-colon-notation": "single",
+    "selector-pseudo-element-colon-notation": "double",
     "selector-root-no-composition": true,
     "string-no-newline": true,
     "string-quotes": "double",
