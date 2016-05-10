@@ -157,7 +157,8 @@ module.exports = {
     "property-value-whitelist": null,
     "property-whitelist": null,
     "rule-nested-empty-line-before": ["always-multi-line", {
-      "except": ["first-nested"]
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
     }],
     "root-no-standard-properties": null,
     "rule-non-nested-empty-line-before": "always",
