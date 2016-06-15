@@ -30,8 +30,7 @@ module.exports = {
     "declaration-block-no-duplicate-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
     "declaration-block-properties-order": [{
-      emptyLineBefore: "null",
-      properties: [
+      "properties": [
         "display",
         "position",
         "top",
@@ -106,7 +105,7 @@ module.exports = {
     "declaration-colon-space-after": "always",
     "declaration-colon-space-before": "never",
     "declaration-no-important": true,
-    "font-family-name-quotes": "double-unless-keyword",
+    "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
     "function-blacklist": null,
     "function-calc-no-unspaced-operator": true,
@@ -117,13 +116,15 @@ module.exports = {
     "function-linear-gradient-no-nonstandard-direction": true,
     "function-parentheses-newline-inside": "never-multi-line",
     "function-parentheses-space-inside": "never",
-    "function-url-quotes": "double",
+    "function-url-quotes": "always",
     "function-whitelist": null,
     "function-whitespace-after": "always",
     "indentation": 2,
     "max-empty-lines": 1,
-    "max-line-length": 80,
-    "max-nesting-depth": 2,
+    "max-line-length": null,
+    "max-nesting-depth": [ 4, {
+      "ignore": ["at-rules-without-declaration-blocks"]
+    }],
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-name-no-vendor-prefix": true,
@@ -170,7 +171,7 @@ module.exports = {
     "selector-list-comma-newline-before": "never-multi-line",
     "selector-list-comma-space-after": "always-single-line",
     "selector-list-comma-space-before": "never",
-    "selector-max-specificity": "0,3,1",
+    "selector-max-specificity": "0,4,1",
     "selector-no-attribute": null,
     "selector-no-combinator": null,
     "selector-no-id": true,
@@ -189,5 +190,5 @@ module.exports = {
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
     "value-no-vendor-prefix": true
-  },
+  }
 }
