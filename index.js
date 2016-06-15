@@ -120,6 +120,7 @@ module.exports = {
     "function-whitelist": null,
     "function-whitespace-after": "always",
     "indentation": 2,
+    "length-zero-no-unit": true,
     "max-empty-lines": 1,
     "max-line-length": null,
     "max-nesting-depth": [ 4, {
@@ -149,7 +150,6 @@ module.exports = {
     "number-leading-zero": "always",
     "number-max-precision": [2, 4],
     "number-no-trailing-zeros": true,
-    "number-zero-length-no-unit": true,
     "property-blacklist": null,
     "property-no-vendor-prefix": true,
     "property-unit-blacklist": null,
