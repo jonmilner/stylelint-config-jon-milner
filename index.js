@@ -148,7 +148,7 @@ module.exports = {
       "browsers": "> 1%, last 2 versions, ie >= 10"
     }],
     "number-leading-zero": "always",
-    "number-max-precision": [2, 4],
+    "number-max-precision": 3,
     "number-no-trailing-zeros": true,
     "property-blacklist": null,
     "property-no-vendor-prefix": true,
