@@ -37,3 +37,5 @@ Create a `.stylelintrc` file in your root directory.:
 
 * [linter](https://github.com/steelbrain/linter)
 * [linter-stylelint](https://github.com/AtomLinter/linter-stylelint)
+
+![demo](https://raw.githubusercontent.com/jonmilner/stylelint-config/master/demo.png)
