@@ -147,7 +147,7 @@ module.exports = {
     "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-element-no-unknown": true,
     "selector-root-no-composition": true,
-    "selector-type-case": "lowercase",
+    "selector-type-case": "lower",
     "selector-type-no-unknown": true,
     "string-no-newline": true,
     "string-quotes": "double",
