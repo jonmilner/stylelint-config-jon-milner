@@ -14,19 +14,14 @@ Coming soon
 
 ## Usage
 
-With stylelint, it's easy to start linting your CSS:
+Install packages as devDependencies:
 
-Install stylelint:
-```
-$ npm install stylelint
-```
-
-Install this stylelint-config:
-```
-$ npm install http://github.com/jonmilner/stylelint-config --save-dev
+```bash
+npm install --save-dev stylelint@7.1.0 http://github.com/jonmilner/stylelint-config
 ```
 
-Create a `.stylelintrc` file in your root directory.:
+Add a `.stylelintrc` config to your project:
+
 ```json
 {
   "extends": "stylelint-config"
