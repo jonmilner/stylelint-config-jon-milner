@@ -35,5 +35,5 @@ Create a `.stylelintrc` file in your root directory.:
 
 ## Atom Plugin (Requires Atom Linter)
 
-* linter-stylelint - https://github.com/AtomLinter/linter-stylelint
-* atom-linter - https://github.com/AtomLinter/atom-linter
+* [linter](https://github.com/steelbrain/linter)
+* [linter-stylelint](https://github.com/AtomLinter/linter-stylelint)
