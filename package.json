@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/jonmilner/stylelint-config#readme",
   "devDependencies": {
-    "stylelint": "^6.2.2"
+    "stylelint": "^7.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^6.2.2"
+    "stylelint": "^7.1.0"
   }
 }
