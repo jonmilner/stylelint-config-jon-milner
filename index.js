@@ -52,7 +52,7 @@ module.exports = {
     "declaration-colon-space-after": "always",
     "declaration-colon-space-before": "never",
     "declaration-empty-line-before": "never",
-    "declaration-no-important": true,
+    "declaration-no-important": null,
     "declaration-property-unit-blacklist": null,
     "declaration-property-unit-whitelist": null,
     "declaration-property-value-blacklist": null,
