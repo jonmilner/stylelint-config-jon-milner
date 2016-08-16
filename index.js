@@ -108,7 +108,7 @@ module.exports = {
     "number-no-trailing-zeros": true,
     "property-blacklist": null,
     "property-no-unknown": [true, {
-      "ignoreProperties": []
+      "ignoreProperties": ["-webkit-overflow-scroll"]
     }],
     "property-no-vendor-prefix": true,
     "property-whitelist": null,
