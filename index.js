@@ -108,7 +108,20 @@ module.exports = {
     "number-no-trailing-zeros": true,
     "property-blacklist": null,
     "property-no-unknown": [true, {
-      "ignoreProperties": ["-webkit-overflow-scroll"]
+      "ignoreProperties": [
+        "lost-utility",
+        "lost-flex-container",
+        "lost-center",
+        "lost-align",
+        "lost-column",
+        "lost-row",
+        "lost-waffle",
+        "lost-offset",
+        "lost-move",
+        "lost-masonry-wrap",
+        "lost-masonry-column",
+        "-webkit-overflow-scroll"
+      ]
     }],
     "property-no-vendor-prefix": true,
     "property-whitelist": null,
