@@ -157,7 +157,9 @@ module.exports = {
     "selector-no-universal": null,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-blacklist": null,
-    "selector-pseudo-class-no-unknown": true,
+    "selector-pseudo-class-no-unknown": [true, {
+      ignorePseudoClasses: ["container"]
+    }],
     "selector-pseudo-class-whitelist": null,
     "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-element-no-unknown": true,
