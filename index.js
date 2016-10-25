@@ -162,7 +162,9 @@ module.exports = {
     }],
     "selector-pseudo-class-whitelist": null,
     "selector-pseudo-element-colon-notation": "double",
-    "selector-pseudo-element-no-unknown": true,
+    "selector-pseudo-element-no-unknown": [true, {
+      ignorePseudoElements: ["ms-expand"]
+    }],
     "selector-root-no-composition": true,
     "selector-type-case": "lower",
     "selector-type-no-unknown": true,
