@@ -167,7 +167,7 @@ module.exports = {
     }],
     "selector-root-no-composition": true,
     "selector-type-case": "lower",
-    "selector-type-no-unknown": true,
+    "selector-type-no-unknown": null,
     "string-no-newline": true,
     "string-quotes": "double",
     "time-no-imperceptible": true,
