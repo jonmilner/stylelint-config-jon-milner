@@ -119,8 +119,7 @@ module.exports = {
         "lost-offset",
         "lost-move",
         "lost-masonry-wrap",
-        "lost-masonry-column",
-        "-webkit-overflow-scrolling"
+        "lost-masonry-column"
       ]
     }],
     "property-no-vendor-prefix": true,
