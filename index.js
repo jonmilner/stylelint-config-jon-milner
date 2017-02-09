@@ -120,7 +120,7 @@ module.exports = {
         "lost-move",
         "lost-masonry-wrap",
         "lost-masonry-column",
-        "-webkit-overflow-scroll"
+        "-webkit-overflow-scrolling"
       ]
     }],
     "property-no-vendor-prefix": true,
