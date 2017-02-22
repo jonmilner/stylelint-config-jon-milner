@@ -1,5 +1,3 @@
-# Change Log
+## 1.2.x
 
-## 1.x.x
-
-Initial version.
+Initial release.
