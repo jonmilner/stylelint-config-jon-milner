@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install --save-dev stylelint@7.1.0 http://github.com/jonmilner/stylelint-config
+npm install stylelint-config-jon-milner
 ```
 
 ## Usage
@@ -14,6 +14,6 @@ Add this to your `.stylelintrc` file:
 
 ```json
 {
-  "extends": "stylelint-config"
+  "extends": "stylelint-config-jon-milner"
 }
 ```
