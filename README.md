@@ -17,3 +17,18 @@ Add this to your `.stylelintrc` file:
   "extends": "stylelint-config-jon-milner"
 }
 ```
+
+### Extending
+
+Add a "rules" key to `.stylelintrc` to override the default rules.
+
+```json
+{
+  "extends": "stylelint-config-jon-milner",
+  "rules": {
+    ...
+  }
+}
+```
+
+## [Changelog](CHANGELOG.md)
