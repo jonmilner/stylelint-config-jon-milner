@@ -1,16 +1,6 @@
 # Stylelint
 
-My config for stylelint
-
-## What is Stylelint?
-
-> A mighty, modern CSS linter that helps you enforce consistent conventions and avoid errors in your stylesheets.
-
-* https://github.com/stylelint/stylelint
-
-## Example
-
-Coming soon
+> My personal [stylelint](https://github.com/stylelint/stylelint) configuration
 
 ## Usage
 
