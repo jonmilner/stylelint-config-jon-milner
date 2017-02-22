@@ -1,16 +1,37 @@
 module.exports = {
+  "plugins": [
+    "stylelint-order",
+  ],
   "rules": {
+    "order/declaration-block-order": [
+      "custom-properties",
+      {
+        type: "at-rule",
+        name: "apply",
+      },
+      {
+        type: "at-rule",
+        name: "mixin",
+      },
+      "declarations",
+      {
+        type: "at-rule",
+        name: "media",
+      },
+      "rules",
+    ],
+    "order/declaration-block-properties-alphabetical-order": true,
     "at-rule-blacklist": null,
-    "at-rule-empty-line-before": ["always", {
-      "except": ["blockless-group", "first-nested"],
-      "ignore": ["after-comment"]
-    }],
+    "at-rule-empty-line-before": [ "always", {
+      except: [ "blockless-after-blockless", "first-nested" ],
+      ignore: ["after-comment"],
+    } ],
     "at-rule-name-case": "lower",
     "at-rule-name-newline-after": "always-multi-line",
     "at-rule-name-space-after": "always",
-    "at-rule-no-unknown": [true, {
-      "ignoreAtRules": ["define-mixin", "each", "for", "lost", "mixin"]
-    }],
+    "at-rule-no-unknown": [ true, {
+      ignoreAtRules: [ "define-mixin", "each", "for", "lost", "mixin" ],
+    } ],
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-newline-after": "always",
     "at-rule-whitelist": null,
@@ -41,7 +62,6 @@ module.exports = {
     "declaration-bang-space-before": "always",
     "declaration-block-no-duplicate-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
-    "declaration-block-properties-order": "alphabetical",
     "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-semicolon-newline-before": "never-multi-line",
     "declaration-block-semicolon-space-after": "always-single-line",
@@ -58,6 +78,7 @@ module.exports = {
     "declaration-property-value-blacklist": null,
     "declaration-property-value-whitelist": null,
     "font-family-name-quotes": "always-unless-keyword",
+    "font-family-no-duplicate-names": true,
     "font-weight-notation": "numeric",
     "function-blacklist": null,
     "function-calc-no-unspaced-operator": true,
@@ -75,16 +96,17 @@ module.exports = {
     "indentation": 2,
     "keyframe-declaration-no-important": true,
     "length-zero-no-unit": true,
+    "media-feature-name-blacklist": null,
+    "media-feature-name-whitelist": null,
     "max-empty-lines": 1,
     "max-line-length": null,
     "max-nesting-depth": [ 4, {
-      "ignore": ["at-rules-without-declaration-blocks"]
-    }],
+      ignore: ["blockless-at-rules"],
+    } ],
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-name-case": "lower",
     "media-feature-name-no-vendor-prefix": true,
-    "media-feature-no-missing-punctuation": true,
     "media-feature-parentheses-space-inside": "never",
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "always",
@@ -100,15 +122,15 @@ module.exports = {
     "no-invalid-double-slash-comments": true,
     "no-missing-end-of-source-newline": true,
     "no-unknown-animations": true,
-    "no-unsupported-browser-features": [null, {
-      "browsers": "> 1%, last 2 versions, ie >= 10"
-    }],
+    "no-unsupported-browser-features": [ null, {
+      browsers: "> 1%, last 2 versions, ie >= 10",
+    } ],
     "number-leading-zero": "always",
     "number-max-precision": 3,
     "number-no-trailing-zeros": true,
     "property-blacklist": null,
-    "property-no-unknown": [true, {
-      "ignoreProperties": [
+    "property-no-unknown": [ true, {
+      ignoreProperties: [
         "lost-utility",
         "lost-flex-container",
         "lost-center",
@@ -119,19 +141,16 @@ module.exports = {
         "lost-offset",
         "lost-move",
         "lost-masonry-wrap",
-        "lost-masonry-column"
-      ]
-    }],
+        "lost-masonry-column",
+      ],
+    } ],
     "property-no-vendor-prefix": true,
     "property-whitelist": null,
-    "rule-nested-empty-line-before": ["always-multi-line", {
-      "except": ["first-nested"],
-      "ignore": ["after-comment"]
-    }],
+    "rule-empty-line-before": [ "always-multi-line", {
+      except: ["first-nested"],
+      ignore: ["after-comment"],
+    } ],
     "root-no-standard-properties": null,
-    "rule-non-nested-empty-line-before": ["always-multi-line", {
-      "ignore": ["after-comment"]
-    }],
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-blacklist": null,
     "selector-attribute-operator-space-after": "never",
@@ -156,26 +175,25 @@ module.exports = {
     "selector-no-universal": null,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-blacklist": null,
-    "selector-pseudo-class-no-unknown": [true, {
-      ignorePseudoClasses: ["container"]
-    }],
+    "selector-pseudo-class-no-unknown": [ true, {
+      ignorePseudoClasses: ["container"],
+    } ],
     "selector-pseudo-class-whitelist": null,
     "selector-pseudo-element-colon-notation": "double",
-    "selector-pseudo-element-no-unknown": [true, {
-      ignorePseudoElements: ["ms-expand"]
-    }],
-    "selector-root-no-composition": true,
+    "selector-pseudo-element-no-unknown": [ true, {
+      ignorePseudoElements: ["ms-expand"],
+    } ],
     "selector-type-case": "lower",
     "selector-type-no-unknown": null,
     "string-no-newline": true,
     "string-quotes": "double",
-    "time-no-imperceptible": true,
+    "time-min-milliseconds": 100,
     "unit-blacklist": null,
     "unit-whitelist": null,
     "value-list-comma-newline-after": "always-multi-line",
     "value-list-comma-newline-before": "never-multi-line",
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
-    "value-no-vendor-prefix": true
-  }
+    "value-no-vendor-prefix": true,
+  },
 }
