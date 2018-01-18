@@ -1,9 +1,11 @@
 {
   "name": "stylelint-config-jon-milner",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "My personal stylelint configuration",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "dry-release": "np --no-publish",
     "release": "np",
@@ -13,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/jonmilner/stylelint-config-jon-milner.git"
   },
-  "keywords": ["stylelint", "stylelint-config"],
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
   "author": "Jon Milner",
   "license": "MIT",
   "homepage": "https://github.com/jonmilner/stylelint-config-jon-milner#readme",
