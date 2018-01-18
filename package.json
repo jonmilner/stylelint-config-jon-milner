@@ -3,36 +3,33 @@
   "version": "1.4.0",
   "description": "My personal stylelint configuration",
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
-    "lint": "eslint . --ignore-path .gitignore",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dry-release": "np --no-publish",
+    "release": "np",
+    "lint": "eslint . --ignore-path .gitignore"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonmilner/stylelint-config-jon-milner.git"
   },
-  "keywords": [
-    "stylelint",
-    "stylelint-config"
-  ],
+  "keywords": ["stylelint", "stylelint-config"],
   "author": "Jon Milner",
   "license": "MIT",
-  "homepage": "https://github.com/jonmilner/stylelint-config-jon-milner",
-  "bugs": "https://github.com/jonmilner/stylelint-config-jon-milner/issues",
+  "homepage": "https://github.com/jonmilner/stylelint-config-jon-milner#readme",
+  "bugs": {
+    "url": "https://github.com/jonmilner/stylelint-config-jon-milner/issues"
+  },
   "devDependencies": {
     "eslint": "^2.4.0",
     "eslint-config-stylelint": "^1.0.0",
-    "stylelint": "^8.0.0"
+    "np": "^2.18.3",
+    "stylelint": "^8.4.0"
   },
   "peerDependencies": {
-    "stylelint": "^8.0.0"
+    "stylelint": "^8.4.0"
   },
   "dependencies": {
-    "stylelint-order": "^0.3.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "stylelint"
-    ]
+    "stylelint-order": "^0.8.0"
   }
 }

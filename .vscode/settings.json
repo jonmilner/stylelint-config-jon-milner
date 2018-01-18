@@ -1,0 +1,8 @@
+{
+  "css.validate": false,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "prettier.disableLanguages": ["css"],
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true
+}
