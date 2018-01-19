@@ -85,6 +85,7 @@ module.exports = {
           "grid-gap",
           "grid-row",
           "grid-template",
+          "transition",
         ],
       },
     ],
