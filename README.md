@@ -10,7 +10,7 @@ yarn add --dev stylelint stylelint-config-jon-milner
 
 ## Usage
 
-Add this to your `.stylelintrc` file:
+Create a `.stylelintrc` file in your project root:
 
 ```json
 {
