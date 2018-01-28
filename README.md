@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install stylelint-config-jon-milner
+yarn add --dev stylelint stylelint-config-jon-milner
 ```
 
 ## Usage
