@@ -7,7 +7,6 @@
     "index.js"
   ],
   "scripts": {
-    "dry-release": "np --no-publish",
     "release": "np",
     "test": "eslint index.js"
   },
