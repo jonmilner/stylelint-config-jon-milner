@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-jon-milner",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "My personal stylelint configuration",
   "main": "index.js",
   "files": [
