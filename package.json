@@ -9,7 +9,7 @@
   "scripts": {
     "dry-release": "np --no-publish",
     "release": "np",
-    "lint": "eslint . --ignore-path .gitignore"
+    "lint": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -26,15 +26,15 @@
     "url": "https://github.com/jonmilner/stylelint-config-jon-milner/issues"
   },
   "devDependencies": {
-    "eslint": "^2.4.0",
-    "eslint-config-stylelint": "^1.0.0",
-    "np": "^2.18.3",
-    "stylelint": "^8.4.0"
+    "eslint": "^4.19.1",
+    "eslint-config-stylelint": "^8.1.0",
+    "np": "^3.0.4",
+    "stylelint": "^9.2.1"
   },
   "peerDependencies": {
-    "stylelint": "8.4.0"
+    "stylelint": "^9.2.1"
   },
   "dependencies": {
-    "stylelint-order": "0.8.0"
+    "stylelint-order": "0.8.1"
   }
 }
