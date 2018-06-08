@@ -9,7 +9,7 @@
   "scripts": {
     "dry-release": "np --no-publish",
     "release": "np",
-    "lint": "eslint index.js"
+    "test": "eslint index.js"
   },
   "repository": {
     "type": "git",
